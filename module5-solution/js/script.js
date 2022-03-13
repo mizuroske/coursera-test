@@ -96,7 +96,7 @@ $ajaxUtils.sendGetRequest(
       // var chosenCategoryShortName = ....
 
       var chosenCategoryShortName = chooseRandomCategory(categories);
-      console.log(chosenCategoryShortName + "i'm logging" + categories);
+      console.log(JSON.stringify(chosenCategoryShortName) + "i'm logging" + categories);
 
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
