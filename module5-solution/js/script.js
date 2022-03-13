@@ -112,7 +112,7 @@ $ajaxUtils.sendGetRequest(
       //
       // var homeHtmlToInsertIntoMainPage = ....
 
-       var homeHtmlToInsertIntoMainPage = homeHtml;
+       var homeHtmlToInsertIntoMainPage = "placeholder";
     insertProperty(homeHtml,
                    "randomCategoryShortName",
                    chosenCategoryShortName);
