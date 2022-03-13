@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+  /* Nav bars */
+.navbar-default .navbar-nav{
+	background-color: #85DCB0;
+	}
+#main-content{
+	margin-right: 10px;
+	margin-left: 10px;
+	}
+}
+#main-content{
+	background-color: #c4dfe6;
+}
