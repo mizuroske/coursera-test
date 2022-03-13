@@ -115,7 +115,7 @@ $ajaxUtils.sendGetRequest(
        var homeHtmlToInsertIntoMainPage = homeHtml;
     insertProperty(homeHtmlToInsertIntoMainPage,
                    "randomCategoryShortName",
-                   chosenCategoryShortName);
+                   "'" + chosenCategoryShortName + "'" );
     console.log(homeHtmlToInsertIntoMainPage + " i'm logging");
 
 
