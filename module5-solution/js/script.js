@@ -113,7 +113,7 @@ $ajaxUtils.sendGetRequest(
       // var homeHtmlToInsertIntoMainPage = ....
 
        var homeHtmlToInsertIntoMainPage =
-    insertProperty(homeHtmlToInsertIntoMainPage,
+    insertProperty(categories,
                    "randomCategoryShortName",
                    chosenCategoryShortName.short_name);
 
